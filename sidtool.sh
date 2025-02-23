@@ -34,7 +34,7 @@ function downloader(){
 for i in $(seq -f "%05g" 0 99999); do
 		printf "\r${i}をダウンロード中"
 		wget -q ${1}"-"${i}".ts" #cURLだとNoSuchKeyのxmlもDLする
-		sleep 1
+		sleep 10
 		if [ $? -ne 0 ]; then
 			echo $j
 			if [ j == "True" ]; then
