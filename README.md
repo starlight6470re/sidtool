@@ -1,4 +1,4 @@
-# numtool/sidtool
+# dokisidpy
 ## このツールを使用したことによる一切の責任を負いません。
 ### numtool.py
 10桁の数字を入力すると、後ろから8桁を利用してUNIX時間に基づく日付を返すだけのPythonスクリプト<br>
