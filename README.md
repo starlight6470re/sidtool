@@ -1,4 +1,4 @@
-# dokisidpy
+# sidtool
 #### このツールを利用するには、FFmpegをインストールし、必要に応じてパスを通す必要があります。
 ### sidtool.py
 DokiDokiLiveのsidから日付を計算してm3u8のURLを表示した後、連番の.tsのダウンロードとffmpegによるmp4への結合を一括でできるようにしたpythonスクリプト。  
